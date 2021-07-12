@@ -37,7 +37,7 @@
     ```
  
 *  **Success Response-2:**
-*  
+  
     - Code:200
     - Params = second
 	- Content:
@@ -73,8 +73,11 @@
 
 *  **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{}`  
+	- Code: 404 NOT FOUND
+    - Content:
+    ```JSON
+		{}
+    ```
 
 ## DB
 
