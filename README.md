@@ -1,6 +1,5 @@
 ## DB schema
 
-
 	| Column Name | Datatype |
 	| ----------- | -------- |
 	| id | int(11) AI PK |
@@ -13,8 +12,6 @@
 	| lineItem_UsageEndDate | varchar(45) |
 	| product_ProductName | varchar(255) |
 	
-
-
 
 ## API
 
