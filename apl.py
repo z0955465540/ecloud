@@ -12,7 +12,7 @@ def home():
 # ========================== GET DATA ====================================
 
 def db_init():
-    db = pymysql.connect(host='52.199.98.12',user='porter',passwd='pn1234567890',db='ecloud')
+    db = pymysql.connect(host='localhost',user='porter',passwd='pn1234567890',db='ecloud')
     cursor = db.cursor(pymysql.cursors.DictCursor)
     return db,cursor
 
