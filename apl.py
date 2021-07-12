@@ -1,6 +1,6 @@
 import flask
 import pymysql
-from flask import jsonify,render_template,request
+from flask import jsonify,render_template
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
