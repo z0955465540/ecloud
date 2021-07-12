@@ -24,7 +24,7 @@
 	- Content:
     ```JSON
         {
-            "{AWS CloudTrail}": "0.0000000000", 
+			"{AWS CloudTrail}": "0.0000000000", 
 			"{AWS Cost Explorer}": "9.8700000000", 
 			"{AWS Key Management Service}": "0.0000270000", 
 			"{AWS Premium Support}": "4569.0400000000", 
