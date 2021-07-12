@@ -17,11 +17,11 @@
 
 	`lineitem/usageaccountid= lineitem/usageaccountid`
 
-*  **Success Response:**
+*  **Success Response-1:**
 
-    ***Code:*** 200 <br />
-    ***Params = first*** <br />
-	***Content:*** 
+    - Code:200
+    - Params = first
+	- Content:
     ```JSON
         {
             "{AWS CloudTrail}": "0.0000000000", 
@@ -36,9 +36,11 @@
         }
     ```
  
-    ***Code:*** 200 <br />
-    ***Params = second*** <br />
-	***Content:*** 
+*  **Success Response-2:**
+*  
+    - Code:200
+    - Params = second
+	- Content:
     ```JSON
         {
 		    "{AWS CloudTrail}": {
@@ -94,13 +96,13 @@
 
 *  **Front-End**
 
-  * **HTML、CSS、JavaScript_Jquery** <br />
+	- HTML、CSS、JavaScript_Jquery
 
 <br />
 
 *  **Back-End**
 
-  * **Python_Flask、MYSQL** <br />
+	- Python_Flask、MYSQL
 
 ## Services
 
