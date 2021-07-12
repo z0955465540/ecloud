@@ -1,5 +1,5 @@
-**API**
-----
+## API
+
 
 * **URL**
 
@@ -47,7 +47,7 @@
 		        "2020-04-03": "409.0000000000",
 		        "2020-04-04": "90.0000000000",
 		        "2020-04-05": "261.0000000000",
-				...
+			...
 		    },
 		    "{AWS Cost Explorer}": {
 		        "2020-04-01": "35.0000000000",
@@ -55,7 +55,7 @@
 		        "2020-04-03": "11.0000000000",
 		        "2020-04-04": "11.0000000000",
 		        "2020-04-05": "6.0000000000",
-				...
+			...
 		    },
 		    "{AWS Key Management Service}": {
 		        "2020-04-10": "7.0000000000",
@@ -75,17 +75,18 @@
     **Content:** `{}`  
 
 <br />
-**DB schema**
-----
+## DB schema
 
-		| Column Name | Datatype |
-		| :---------: | :------: |
-		| id | int(11) AI PK |
-		| bill_PayerAccountId | varchar(45) |
-		| lineItem_UnblendedCost | decimal(20,10) |
-		| lineItem_UnblendedRate | decimal(20,10) |
-		| lineItem_UsageAccountId | varchar(45) |
-		| lineItem_UsageAmount | decimal(20,10) |
-		| lineItem_UsageStartDate | varchar(45) |
-		| lineItem_UsageEndDate | varchar(45) |
-		| product_ProductName | varchar(255) |
+
+	| Column Name | Datatype |
+	| ----------- | -------- |
+	| id | int(11) AI PK |
+	| bill_PayerAccountId | varchar(45) |
+	| lineItem_UnblendedCost | decimal(20,10) |
+	| lineItem_UnblendedRate | decimal(20,10) |
+	| lineItem_UsageAccountId | varchar(45) |
+	| lineItem_UsageAmount | decimal(20,10) |
+	| lineItem_UsageStartDate | varchar(45) |
+	| lineItem_UsageEndDate | varchar(45) |
+	| product_ProductName | varchar(255) |
+	
