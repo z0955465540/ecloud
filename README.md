@@ -69,15 +69,6 @@
 		    ...
 		}
     ```
-	
-
-*  **Error Response:**
-
-	- Code: 404 NOT FOUND
-    - Content:
-    ```JSON
-		{}
-    ```
 
 ## DB
 
@@ -89,7 +80,7 @@
 	| bill_PayerAccountId | varchar(45) |
 	| lineItem_UnblendedCost | decimal(20,10) |
 	| lineItem_UnblendedRate | decimal(20,10) |
-	| lineItem_UsageAccountId | varchar(45) |
+	| lineItem_UsageAccountId | varchar(45) Index |
 	| lineItem_UsageAmount | decimal(20,10) |
 	| lineItem_UsageStartDate | varchar(45) |
 	| lineItem_UsageEndDate | varchar(45) |
@@ -110,3 +101,11 @@
 ## Services
 
 *  **AWS-EC2 Ubuntu Server 20.04 LTS (HVM), SSD Volume Type**
+
+	- Application Server: Flask
+
+	- WSGI Server: uWsgi
+	
+	- Web Server: Nginx
+
+
