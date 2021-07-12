@@ -1,3 +1,21 @@
+## DB schema
+
+
+	| Column Name | Datatype |
+	| ----------- | -------- |
+	| id | int(11) AI PK |
+	| bill_PayerAccountId | varchar(45) |
+	| lineItem_UnblendedCost | decimal(20,10) |
+	| lineItem_UnblendedRate | decimal(20,10) |
+	| lineItem_UsageAccountId | varchar(45) |
+	| lineItem_UsageAmount | decimal(20,10) |
+	| lineItem_UsageStartDate | varchar(45) |
+	| lineItem_UsageEndDate | varchar(45) |
+	| product_ProductName | varchar(255) |
+	
+
+
+
 ## API
 
 
@@ -75,18 +93,4 @@
     **Content:** `{}`  
 
 <br />
-## DB schema
 
-
-	| Column Name | Datatype |
-	| ----------- | -------- |
-	| id | int(11) AI PK |
-	| bill_PayerAccountId | varchar(45) |
-	| lineItem_UnblendedCost | decimal(20,10) |
-	| lineItem_UnblendedRate | decimal(20,10) |
-	| lineItem_UsageAccountId | varchar(45) |
-	| lineItem_UsageAmount | decimal(20,10) |
-	| lineItem_UsageStartDate | varchar(45) |
-	| lineItem_UsageEndDate | varchar(45) |
-	| product_ProductName | varchar(255) |
-	
