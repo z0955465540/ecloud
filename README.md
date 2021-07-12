@@ -19,9 +19,9 @@
 
 *  **Success Response:**
 
-  * **Code:** 200 <br />
-    **Params = first** <br />
-	**Content:** 
+    ***Code:*** 200 <br />
+    ***Params = first*** <br />
+	***Content:*** 
     ```JSON
         {
             "{AWS CloudTrail}": "0.0000000000", 
@@ -36,9 +36,9 @@
         }
     ```
  
-  * **Code:** 200 <br />
-    **Params = second** <br />
-	**Content:** 
+    ***Code:*** 200 <br />
+    ***Params = second*** <br />
+	***Content:*** 
     ```JSON
         {
 		    "{AWS CloudTrail}": {
