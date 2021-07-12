@@ -1,4 +1,6 @@
-## DB schema
+## DB
+
+* **schema**
 
 	| Column Name | Datatype |
 	| ----------- | -------- |
@@ -96,7 +98,7 @@
 
 1. Import csv file into database, your table __MUST__ have the following columns down below. You can choose any Database service you want. e.g. __Amazon RDS__, __Azure SQL Databae__ or __local SQLite__.
 
-      | Column | Description |
+	  | Column | Description |
       | -- | -- |
       | bill/PayerAccountId | The account ID of the paying account. For an organization in AWS Organizations, this is the account ID of the master account. |
       |lineItem/UnblendedCost | The UnblendedCost is the UnblendedRate multiplied by the UsageAmount. |
