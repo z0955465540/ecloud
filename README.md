@@ -1,21 +1,3 @@
-## DB
-
-* **schema**
-
-	| Column Name | Datatype |
-	| ----------- | -------- |
-	| id | int(11) AI PK |
-	| bill_PayerAccountId | varchar(45) |
-	| lineItem_UnblendedCost | decimal(20,10) |
-	| lineItem_UnblendedRate | decimal(20,10) |
-	| lineItem_UsageAccountId | varchar(45) |
-	| lineItem_UsageAmount | decimal(20,10) |
-	| lineItem_UsageStartDate | varchar(45) |
-	| lineItem_UsageEndDate | varchar(45) |
-	| product_ProductName | varchar(255) |
-	
-
-
 ## API
 
 
@@ -92,19 +74,34 @@
   * **Code:** 404 NOT FOUND <br />
     **Content:** `{}`  
 
+## DB
+
+* **schema**
+
+	| Column Name | Datatype |
+	| ----------- | -------- |
+	| id | int(11) AI PK |
+	| bill_PayerAccountId | varchar(45) |
+	| lineItem_UnblendedCost | decimal(20,10) |
+	| lineItem_UnblendedRate | decimal(20,10) |
+	| lineItem_UsageAccountId | varchar(45) |
+	| lineItem_UsageAmount | decimal(20,10) |
+	| lineItem_UsageStartDate | varchar(45) |
+	| lineItem_UsageEndDate | varchar(45) |
+	| product_ProductName | varchar(255) |
+	
+## Framework
+
+*  **Front-End**
+
+  * **HTML、CSS、JavaScript_Jquery** <br />
+
 <br />
 
-## Target
+*  **Back-End**
 
-1. Import csv file into database, your table __MUST__ have the following columns down below. You can choose any Database service you want. e.g. __Amazon RDS__, __Azure SQL Databae__ or __local SQLite__.
+  * **Python_Flask、MYSQL** <br />
 
-	  | Column | Description |
-      | -- | -- |
-      | bill/PayerAccountId | The account ID of the paying account. For an organization in AWS Organizations, this is the account ID of the master account. |
-      |lineItem/UnblendedCost | The UnblendedCost is the UnblendedRate multiplied by the UsageAmount. |
-      | lineItem/UnblendedRate | The uncombined rate for specific usage. For line items that have an RI discount applied to them, the UnblendedRate is zero. Line items with an RI discount have a UsageType of Discounted Usage. |
-      | lineItem/UsageAccountId |The ID of the account that used this line item. For organizations, this can be either the master account or a member account. You can use this field to track costs or usage by account. |
-      | lineItem/UsageAmount | The amount of usage that you incurred during the specified time period. For size-flexible reserved instances, use the reservation/TotalReservedUnits column instead. |
-      | lineItem/UsageStartDate |  The start date and time for the line item in UTC, inclusive. The format is YYYY-MM-DDTHH:mm:ssZ. |
-      | lineItem/UsageEndDate | The end date and time for the corresponding line item in UTC, exclusive. The format is YYYY-MM-DDTHH:mm:ssZ. |
-      | product/ProductName | The full name of the AWS service. Use this column to filter AWS usage by AWS service. Sample values: AWS Backup, AWS Config, Amazon Registrar, Amazon Elastic File System, Amazon Elastic Compute Cloud |
+## Services
+
+*  **AWS-EC2 Ubuntu Server 20.04 LTS (HVM), SSD Volume Type**
