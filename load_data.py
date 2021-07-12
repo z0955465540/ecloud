@@ -1,9 +1,9 @@
 from resources import load_data,store
 
-datapath = "C:\\Users\\Porter\\hw-backend-api-enhancement-master\\data\\output.csv"
+datapath = "/home/ubuntu/output.csv"
 user = 'porter'
 passwd = 'pn1234567890'
-host = '13.115.186.148'
+host = 'localhost'
 port = '3306'
 schema = 'ecloud'
 table = 'test'
